@@ -7,4 +7,4 @@ tof = int(input("Enter Toefl : "))
 cgpa = float(input("Enter CGPA : "))
 
 result = model.predict([[gre,tof,cgpa]])
-print(result[0])
+print(f"{result[0]:.2f}")
